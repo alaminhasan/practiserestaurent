@@ -192,7 +192,7 @@
     font-weight: 500;
     line-height: 28px;
     letter-spacing: 0%;
-    text-align: left;
+ 
     opacity: 0.6;
 
 }
@@ -236,6 +236,12 @@
 }
 .right-text-othter-container{
     padding: 5px;
+    text-align: center;
+}
+.image-container img{
+   max-width: 424px;
+}
+*{
     text-align: center;
 }
 }
