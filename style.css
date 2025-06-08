@@ -69,7 +69,7 @@
     text-align: center;
 }
 .cardfullcantainer{
-    width: 1320px;
+    max-width: 1320px;
     margin: 0 auto;
     padding: 150px 0px;
     display: flex;
@@ -218,4 +218,24 @@
 }
 .social-icon-container i{
     color: red;
+}
+
+/*Responsive Design*/
+
+@media only screen and (max-width: 600px) {
+  .cardcontainer{
+   flex-direction: column;
+   justify-content: center;
+ 
+}
+.aboutus{
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.right-text-othter-container{
+    padding: 5px;
+    text-align: center;
+}
 }
